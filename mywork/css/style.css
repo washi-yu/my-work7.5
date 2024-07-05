@@ -1,0 +1,324 @@
+html {
+  font-size: 100%;
+}
+
+.header-div {
+  max-width: 960px;
+  padding-left: 2%;
+  padding-right:2% ;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.logo-div {
+  width: 120px;
+}
+
+.logo-div div {
+  width: 100%;
+}
+
+.insta-img {
+  width: 20px;
+}
+
+.insta-img img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.link-div a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  margin-right:30px ;
+  
+}
+
+.insta-img a {
+  margin: 0;
+} 
+
+
+.link-div > ul {
+display: flex;
+align-items: center;
+}
+
+.main-visual {
+  width: 100%;
+ 
+}
+
+.sp-main {
+  display: none;
+} 
+
+.main-visual img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+.content-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 74px;
+}
+
+#about {
+  max-width: 960px;
+  padding-left: 2%;
+  padding-right:2% ;
+  margin: 87px auto 133px auto;
+}
+
+#about p {
+  font-size: 0.875rem;
+}
+
+#about > div div {
+  margin-bottom: 37px;
+}
+
+#works {
+  max-width: 960px;
+  padding-left: 2%;
+  padding-right:2% ;
+  margin: 0 auto 137px auto;
+}
+
+.works-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 25px; */
+}
+
+.works-flex > div {
+  width: 31%;
+  margin-bottom: 30px;
+}
+.works-flex img {
+  width: 100%;
+}
+
+#news {
+  max-width: 960px;
+  padding-left: 2%;
+  padding-right:2% ;
+  margin: 87px auto 133px auto;
+}
+
+table {
+  width: 100%;
+  
+}
+
+#news a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  line-height: 2;
+   width: 100%;  
+/* display: block;
+
+   overflow-wrap: normal; */
+  /*  
+  width:100%; 追加 
+  max-width:100%; 追加  */
+ 
+
+  
+}
+
+#news td {
+  font-size: 0.9rem;
+  line-height: 3.5;
+  padding-right: 90px;
+  padding-left: 10px;
+  white-space: normal; 
+
+  /* width: 100%; */
+
+
+ 
+  /* display: inline-block;  */
+  /* table-layout: fixed; */
+ 
+  
+
+}
+
+#news tr {
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+  width: 100%;
+}
+
+#contact {
+  max-width: 960px;
+  padding-left: 2%;
+  padding-right:2% ;
+  margin: 0 auto 165px auto;
+}
+
+label {
+  vertical-align: top;
+  display: inline-block;
+  width: 150px;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 130px;
+}
+button {
+  width: 200px;
+  line-height: 4;
+  color: #fff;
+  background-color: #000;
+}
+
+button:hover {
+  color:#000 ;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+input {
+  border: 1px solid #C8C8C8;
+  width: 80%;
+}
+
+textarea {
+  border: 1px solid #C8C8C8;
+  width: 80%;
+  height: 160px; 
+  resize: vertical;
+}
+
+.form-content div {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-content {
+  margin-bottom: 30px;
+}
+
+footer p {
+line-height: 2;
+text-align: center;  
+color: #fff;
+background-color: #000;
+font-size: 0.625rem;
+}
+
+@media screen and (max-width:600px){
+
+  .header-div {
+    width: 100%;
+    height: 102px;
+    padding:10px 0 0 0 ;
+    display: block;
+    
+  } 
+  
+  .logo-div {
+    margin: 10px auto 10px auto;
+    padding: 0;
+  }
+
+  .link-div {
+    padding-right:10px ;
+    padding-left: 10px;
+  }
+
+  .link-div > ul{
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .link-div a {
+    margin-right: 0;
+  }
+
+  .main-visual > .pc-img {
+    display: none;
+  }
+
+  .sp-main {
+    display: initial;
+    width: 100%;
+  } 
+
+  .about-text {
+    line-height: 2;
+    letter-spacing: 0.1rem;
+    color: #24292E;
+  }
+
+#about {
+  margin-bottom: 64px;
+}
+
+.works-flex {
+  display: block;
+}
+
+.works-flex > div {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#works {
+  margin-bottom:77px ;
+}
+
+#news td {
+  display: block;
+  padding-right:30px ;
+  line-height: 2;
+}
+
+#news tr {
+  padding-top:10px ;
+  padding-bottom:10px ;
+  display: inline-block;
+}
+
+#news {
+  margin-bottom: 80px;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+#contact {
+  margin-bottom:70px ;
+}
+
+.button {
+  margin-bottom: 70px;
+}
+
+
+footer p {
+  line-height: 3.5;
+}
+}
